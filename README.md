@@ -1,7 +1,7 @@
 # team27_project
 Potential Questions to Discuss When Reviewing Your Dataset
 
-    [x ] What are the key variables and attributes in your dataset?
+    [x] What are the key variables and attributes in your dataset?
     How can we explore the relationships between different variables?
     Are there any patterns or trends in the data that we can identify?
     Who is the intended audience for our data analysis?
