@@ -1,6 +1,4 @@
-# TTC Subway and Streetcar Delay
-Potential Questions to Discuss When Reviewing Your Dataset
-
+## Potential Questions to Discuss When Reviewing Your Dataset
 1. What are the key variables and attributes in your dataset?
 2. How can we explore the relationships between different variables?
 3. Are there any patterns or trends in the data that we can identify?
@@ -20,8 +18,7 @@ Potential Questions to Discuss When Reviewing Your Dataset
 17. Are there any ethical implications or biases associated with our machine learning model?
 18. How can we document our machine learning pipeline and model architecture for future reference?
 
-Requirements
-
+## Requirements
 - Thoroughly understand your data and the business case for your analysis. What will the impact of your results be?
 - Clean your data. Be confident in the decisions you have made while doing so (e.g. default handling of NULL values).
 - Test out regression analyses (for Part 1) or machine learning models/data visualizations (for Part 2). It may take several tries before you are satisfied with your results and understand how you can provide the most insight.
