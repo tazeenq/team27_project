@@ -1,22 +1,79 @@
 ## Potential Questions to Discuss When Reviewing Your Dataset
 1. What are the key variables and attributes in your dataset?
+
+The key variables and attributes in the dataset are as follows:
+- Transaction ID: Unique identifier for each transaction.
+- Date: Date of the transaction.
+- Customer ID: Unique identifier for each customer.
+- Gender: Gender of the customer.
+- Age: Age of the customer. 
+- Product Category: Category of the product sold.
+- Quantity: Number of units sold in the transaction.
+- Price per unit: Price of one unit of the product.
+- Total Amount: Total transaction amount (calculated as Quantity x Price per unit).
+
 2. How can we explore the relationships between different variables?
+
+Initial plan is to use the following statistical methods to explore relationships:
+- Using mean, median, and standard deviation to understand central tendencies and variation in numerical variables (Age, Quantity, and Total Amount).
+- Identifying correlations between numerical variables (Quantity, Price per unit, and Total Amount).
+- Grouping data by demographic variables (Gender, Age) to analyze differences in spending behaviors and product preferences.
+- Examining trends over time by grouping data by Date to explore seasonal or monthly patterns.
+- Cross-tabulating (or bar charts) to compare categorical variables like Gender and Product category.
+
 3. Are there any patterns or trends in the data that we can identify?
+
+
 4. Who is the intended audience for our data analysis?
+
+
 5. What is the question our analysis is trying to answer?
+
+
 6. Are there any specific libraries or frameworks that are well-suited to our project requirements?
+
+
 7. How can we iterate on our design to address feedback and make iterative improvements?
+
+
 8. What best practices can we follow to promote inclusivity and diversity in our visualization design?
+
+
 9. How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?
+
+
 10. Are there any privacy concerns or sensitive information that need to be addressed in our visualization?
+
+
 11. What are the specific objectives and success criteria for our machine learning model?
+
+Not Applicable.
+
 12. How can we select the most relevant features for training our machine learning model?
+
+Not Applicable.
+
 13. Are there any missing values or outliers that need to be addressed through preprocessing?
+
+
 14. Which machine learning algorithms are suitable for our problem domain?
+
+Not Applicable.
+
 15. What techniques can we use to validate and tune the hyperparameters for our models?
+
+Not Applicable.
+
 16. How should we split the dataset into training, validation, and test sets?
+
+
 17. Are there any ethical implications or biases associated with our machine learning model?
+
+Not Applicable.
+
 18. How can we document our machine learning pipeline and model architecture for future reference?
+
+Not Applicable.
 
 ## Requirements
 - Thoroughly understand your data and the business case for your analysis. What will the impact of your results be?
