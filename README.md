@@ -12,65 +12,65 @@ This project analyzes the [Retail Sales Dataset](https://www.kaggle.com/datasets
 The retail industry in Canada is very competitive. In a competitive industry, it is essential to understand customer spending behaviors to execute optimized marketing strategies and guide strategic decision-making. Classifying customers as high spenders based on their demographics and purchase attributes can help businesses target the right audience and allocate their resources efficiently. 
 
 ## Questions and Answers
-1. What are they key variables and attributes in the dataset?<br>
-```
-The key variables and attributes in the dataset are:
+**1. What are they key variables and attributes in the dataset?**<br>
 
-- Transaction ID: Unique identifier for each transaction.
-- Date: Date of the transaction.
-- Customer ID: Unique identifier for each customer.
-- Gender: Gender of the customer.
-- Age: Age of the customer. 
-- Product Category: Category of the product sold.
-- Quantity: Number of units sold in the transaction.
-- Price per unit: Price of one unit of the product.
-- Total Amount: Total transaction amount (calculated as Quantity x Price per unit).
-```
-2. How can we explore the relationships between different variables?<br>
-```
+The key variables and attributes in the dataset are:<br>
 
-```
-3. Are there any patterns or trends in the data that we can identify?<br>
+- **Transaction ID**: Unique identifier for each transaction.<br>
+- **Date**: Date of the transaction.<br>
+- **Customer ID**: Unique identifier for each customer.<br>
+- **Gender**: Gender of the customer.<br>
+- **Age**: Age of the customer. <br>
+- **Product Category**: Category of the product sold.<br>
+- **Quantity**: Number of units sold in the transaction.<br>
+- **Price per unit**: Price of one unit of the product.<br>
+- **Total Amount**: Total transaction amount (calculated as Quantity x Price per unit).<br>
+
+**2. How can we explore the relationships between different variables?**<br>
 ```
 
 ```
-4. Who is the intended audience for our data analysis?<br>
-```
-The intended audience includes retail managers, marketing teams, and data analysts who can use the insights from this project to make informed decisions that help improve customer engagement and target revenue strategies.
-```
-5. What is the question our analysis is trying to answer?<br>
-```
-Can we classify whether a customer will be a high spender based on their demographics (age, gender) and purchase attributes (product category, quantity)?
-```
-6. Are there any specific libraries or frameworks that are well-suited to our project requirements?br>
+**3. Are there any patterns or trends in the data that we can identify?**<br>
 ```
 
 ```
-7. How can we iterate on our design to address feedback and make iterative improvements?<br>
+**4. Who is the intended audience for our data analysis?**<br>
+
+The intended audience includes retail managers, marketing teams, and data analysts who can use the insights from this project to make informed decisions that help improve customer engagement and target revenue strategies.<br>
+
+**5. What is the question our analysis is trying to answer?**<br>
+
+*Can we classify whether a customer will be a high spender based on their demographics (age, gender) and purchase attributes (product category, quantity)?*<br>
+
+**6. Are there any specific libraries or frameworks that are well-suited to our project requirements?**<br>
 ```
 
 ```
-8. What best practices can we follow to promote inclusivity and diversity in our visualization design?<br>
+**7. How can we iterate on our design to address feedback and make iterative improvements?**<br>
 ```
 
 ```
-9. How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?<br>
+**8. What best practices can we follow to promote inclusivity and diversity in our visualization design?**<br>
 ```
 
 ```
-10. Are there any privacy concerns or sensitive information that need to be addressed in our visualization?<br>
+**9. How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?**<br>
 ```
 
 ```
-11. Are there any missing values or outliers that need to be addressed through preprocessing?<br>
+**10. Are there any privacy concerns or sensitive information that need to be addressed in our visualization?**<br>
 ```
 
 ```
-12. What techniques can we use to validate and tune the hyperparameters for our models?<br>
+**11. Are there any missing values or outliers that need to be addressed through preprocessing?**<br>
 ```
 
 ```
-13. How should we split the dataset into training, validation, and test sets?<br>
+**12. What techniques can we use to validate and tune the hyperparameters for our models?**<br>
+```
+
+```
+**13. How should we split the dataset into training, validation, and test sets?**<br>
 ```
 
 ```
@@ -92,8 +92,8 @@ The folder structure for the project is as follows:<br>
 * **Experiments:** A folder for experiments - with the various statistical methods that I ran on the dataset.
 * **Reports:** Includes a markdown file with visualizations.
 * **src:** Project source code.
-* README: This file.
-* LICENSE: Apache 2.0.
+* **README**: This file.
+* **LICENSE**: Apache 2.0.
 
 
 
