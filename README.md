@@ -111,16 +111,4 @@ The key variables and attributes in the dataset are:
 
 
 
-## Project Requirements
-- Thoroughly understand your data and the business case for your analysis. What will the impact of your results be?
-- Clean your data. Be confident in the decisions you have made while doing so (e.g. default handling of NULL values).
-- Test out regression analyses (for Part 1) or machine learning models/data visualizations (for Part 2). It may take several tries before you are satisfied with your results and understand how you can provide the most insight.
-- Make sure your code is well-commented and decisions are documented.
-- Keep your README up to date. Not only is that easier than writing it all at the end of your project, it will help keep you on track and ensure your alignment with your business objective.
-- Each team member must create, review, and merge a pull request.
-- Record a 3-5 minute video (at the end of Part 2) reflecting on your experience. Answer the following questions:
-    - What did you learn?
-    - What challenges did you face?
-    - How did you overcome those challenges?
-    - If you had more time, what would you add?
-    - What strengths do you bring to a team environment?
+
