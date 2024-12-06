@@ -8,6 +8,8 @@
 ## Description
 This project analyzes the [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).<br>
 
+***Project report*** detailing out methods, results, and visualizations can be found [here](https://github.com/tazeenq/team27_project/blob/main/reports/report.md).<br>
+
 ## Business Case
 The retail industry in Canada is very competitive. In a competitive industry, it is essential to understand customer spending behaviors to execute optimized marketing strategies and guide strategic decision-making. Classifying customers as high spenders based on their demographics and purchase attributes can help businesses target the right audience and allocate their resources efficiently. 
 
