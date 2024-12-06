@@ -6,7 +6,7 @@
 **Project Github**: https://github.com/tazeenq/team27_project<br>
 
 
-This is a project analyzing retail sales data [URL Path to the Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).
+This is a project analyzing [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).
 
 
 
