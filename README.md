@@ -5,8 +5,29 @@
 **Stream**: Data Science<br>
 **Project Github**: https://github.com/tazeenq/team27_project<br>
 
+## Description
+This project analyzes the [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).<br>
 
-This is a project analyzing [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).
+## Project Folder Structure
+The folder structure for the project is as follows:<br>
+```markdown
+|-- data
+|---- processed
+|---- raw
+|-- experiments
+|-- reports
+|-- src
+|-- README.md
+|-- License
+```
+* **Data:** Contains the raw and processed dataset files in CSV.
+* **Experiments:** A folder for experiments - with the various statistical methods that I ran on the dataset.
+* **Reports:** Includes a markdown file with visualizations.
+* **src:** Project source code.
+* README: This file.
+* LICENSE: Apache 2.0.
+
+## Business Case
 
 
 
@@ -18,23 +39,11 @@ This is a project analyzing [Retail Sales Dataset](https://www.kaggle.com/datase
 
 
 
+# Questions and Answers
+1. What are they key variables and attributes in the dataset?<br>
+```
+The key variables and attributes in the dataset are:
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Potential Questions to Discuss When Reviewing Your Dataset
-1. What are the key variables and attributes in your dataset?
-
-The key variables and attributes in the dataset are as follows:
 - Transaction ID: Unique identifier for each transaction.
 - Date: Date of the transaction.
 - Customer ID: Unique identifier for each customer.
@@ -44,71 +53,65 @@ The key variables and attributes in the dataset are as follows:
 - Quantity: Number of units sold in the transaction.
 - Price per unit: Price of one unit of the product.
 - Total Amount: Total transaction amount (calculated as Quantity x Price per unit).
+```
+2. How can we explore the relationships between different variables?<br>
+```
 
-2. How can we explore the relationships between different variables?
+```
+3. Are there any patterns or trends in the data that we can identify?<br>
+```
 
-Initial plan is to use the following statistical methods to explore relationships:
-- Using mean, median, and standard deviation to understand central tendencies and variation in numerical variables (Age, Quantity, and Total Amount).
-- Identifying correlations between numerical variables (Quantity, Price per unit, and Total Amount).
-- Grouping data by demographic variables (Gender, Age) to analyze differences in spending behaviors and product preferences.
-- Examining trends over time by grouping data by Date to explore seasonal or monthly patterns.
-- Cross-tabulating (or bar charts) to compare categorical variables like Gender and Product category.
+```
+4. Who is the intended audience for our data analysis?<br>
+```
 
-3. Are there any patterns or trends in the data that we can identify?
+```
+5. What is the question our analysis is trying to answer?<br>
+```
 
+```
+6. Are there any specific libraries or frameworks that are well-suited to our project requirements?br>
+```
 
-4. Who is the intended audience for our data analysis?
+```
+7. How can we iterate on our design to address feedback and make iterative improvements?<br>
+```
 
+```
+8. What best practices can we follow to promote inclusivity and diversity in our visualization design?<br>
+```
 
-5. What is the question our analysis is trying to answer?
+```
+9. How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?<br>
+```
 
+```
+10. Are there any privacy concerns or sensitive information that need to be addressed in our visualization?<br>
+```
 
-6. Are there any specific libraries or frameworks that are well-suited to our project requirements?
+```
+11. Are there any missing values or outliers that need to be addressed through preprocessing?<br>
+```
 
+```
+12. What techniques can we use to validate and tune the hyperparameters for our models?<br>
+```
 
-7. How can we iterate on our design to address feedback and make iterative improvements?
+```
+13. How should we split the dataset into training, validation, and test sets?<br>
+```
 
-
-8. What best practices can we follow to promote inclusivity and diversity in our visualization design?
-
-
-9. How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?
-
-
-10. Are there any privacy concerns or sensitive information that need to be addressed in our visualization?
-
-
-11. What are the specific objectives and success criteria for our machine learning model?
-
-Not Applicable.
-
-12. How can we select the most relevant features for training our machine learning model?
-
-Not Applicable.
-
-13. Are there any missing values or outliers that need to be addressed through preprocessing?
-
-
-14. Which machine learning algorithms are suitable for our problem domain?
-
-Not Applicable.
-
-15. What techniques can we use to validate and tune the hyperparameters for our models?
-
-Not Applicable.
-
-16. How should we split the dataset into training, validation, and test sets?
+```
 
 
-17. Are there any ethical implications or biases associated with our machine learning model?
 
-Not Applicable.
 
-18. How can we document our machine learning pipeline and model architecture for future reference?
 
-Not Applicable.
 
-## Requirements
+
+
+
+## Project Requirements
 - Thoroughly understand your data and the business case for your analysis. What will the impact of your results be?
 - Clean your data. Be confident in the decisions you have made while doing so (e.g. default handling of NULL values).
 - Test out regression analyses (for Part 1) or machine learning models/data visualizations (for Part 2). It may take several tries before you are satisfied with your results and understand how you can provide the most insight.
