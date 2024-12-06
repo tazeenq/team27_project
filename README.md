@@ -8,38 +8,10 @@
 ## Description
 This project analyzes the [Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).<br>
 
-## Project Folder Structure
-The folder structure for the project is as follows:<br>
-```markdown
-|-- data
-|---- processed
-|---- raw
-|-- experiments
-|-- reports
-|-- src
-|-- README.md
-|-- License
-```
-* **Data:** Contains the raw and processed dataset files in CSV.
-* **Experiments:** A folder for experiments - with the various statistical methods that I ran on the dataset.
-* **Reports:** Includes a markdown file with visualizations.
-* **src:** Project source code.
-* README: This file.
-* LICENSE: Apache 2.0.
-
 ## Business Case
+The retail industry in Canada is very competitive. In a competitive industry, it is essential to understand customer spending behaviors to execute optimized marketing strategies and guide strategic decision-making. Classifying customers as high spenders based on their demographics and purchase attributes can help businesses target the right audience and allocate their resources efficiently. 
 
-
-
-
-
-
-
-
-
-
-
-# Questions and Answers
+## Questions and Answers
 1. What are they key variables and attributes in the dataset?<br>
 ```
 The key variables and attributes in the dataset are:
@@ -64,11 +36,11 @@ The key variables and attributes in the dataset are:
 ```
 4. Who is the intended audience for our data analysis?<br>
 ```
-
+The intended audience includes retail managers, marketing teams, and data analysts who can use the insights from this project to make informed decisions that help improve customer engagement and target revenue strategies.
 ```
 5. What is the question our analysis is trying to answer?<br>
 ```
-
+Can we classify whether a customer will be a high spender based on their demographics (age, gender) and purchase attributes (product category, quantity)?
 ```
 6. Are there any specific libraries or frameworks that are well-suited to our project requirements?br>
 ```
@@ -103,6 +75,25 @@ The key variables and attributes in the dataset are:
 
 ```
 
+
+## Project Folder Structure
+The folder structure for the project is as follows:<br>
+```markdown
+|-- data
+|---- processed
+|---- raw
+|-- experiments
+|-- reports
+|-- src
+|-- README.md
+|-- License
+```
+* **Data:** Contains the raw and processed dataset files in CSV.
+* **Experiments:** A folder for experiments - with the various statistical methods that I ran on the dataset.
+* **Reports:** Includes a markdown file with visualizations.
+* **src:** Project source code.
+* README: This file.
+* LICENSE: Apache 2.0.
 
 
 
