@@ -1,3 +1,36 @@
+# Team 27: Retail Sales Data Analysis
+
+**Name**: Tazeen Qureshi
+**DSI Cohort Number**: 04
+**Stream**: Data Science
+**Project Github**: https://github.com/tazeenq/team27_project
+
+
+This is a project analyzing retail sales data [URL Path to the Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset) to see whether I can **classify whether a customer will be a high spender** based on their demographics (age, gender) and purchase attributes (product category, quantity).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Potential Questions to Discuss When Reviewing Your Dataset
 1. What are the key variables and attributes in your dataset?
 
