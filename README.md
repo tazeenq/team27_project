@@ -125,8 +125,8 @@ The folder structure for the project is as follows:<br>
 |-- License
 ```
 * **Data:** Contains the raw and processed dataset files in CSV.
-* **Reports:** Include PDF and HTML files with visualizations.
-* **src:** Project source code.
+* **Reports:** Include analysis report as markdown file with visualizations.
+* **src:** Project source code and png images of visualizations.
 * **README**: This file.
 * **LICENSE**: Apache 2.0.
 
