@@ -29,9 +29,15 @@ The key variables and attributes in the dataset are:<br>
 - **Total Amount**: Total transaction amount (calculated as Quantity x Price per unit).<br>
 
 **2. How can we explore the relationships between different variables?**<br>
-```
 
-```
+In this project, I have explored relationships between different variables using the following statistical methods:
+1. Class Imbalance Analysis
+2. Categoric and Numeric Variability Analysis
+3. Chi-Squate Testing
+4. Analysis of Average Spending by Age and Gender
+5. Analysis of Average Spending by Product Category and Age Groups
+6. Correlation Analysis
+
 **3. Are there any patterns or trends in the data that we can identify?**<br>
 ```
 
