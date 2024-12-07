@@ -14,7 +14,18 @@ This project analyzes the [Retail Sales Dataset](https://www.kaggle.com/datasets
 The retail industry in Canada is very competitive. In a competitive industry, it is essential to understand customer spending behaviors to execute optimized marketing strategies and guide strategic decision-making. Classifying customers as high spenders based on their demographics and purchase attributes can help businesses target the right audience and allocate their resources efficiently. 
 
 ## Answer to the Research Question
+My research question was:<br><br>
 
+*Can we classify whether a customer will be a high spender based on their demographics (age, gender) and purchase attributes (product category, quantity)?*<br><br>
+
+After running the KNN Model on the dataset, I can conclusively say that yes, the KNN model can effectively classify high spenders based on the purchase attributes.<br><br>
+
+I can also confidently say that:
+- The model has an overall accuracy of 95%, indicating reliable predictions.
+- It identifies high spenders with 98% recall, meaning nearly all high spenders are correctly classified.
+- The slightly lower precision (85%) for high spenders suggests a small proportion of over-predictions, but this is balanced by the very high recall and F1-score.
+
+Therefore, customer demographics (age, gender) and purchase attributes (product category, quantity) are strong predictors for classifying high spenders.
 
 ## Answers to Potential Questions After Reviewing the Dataset
 **1. What are they key variables and attributes in the dataset?**<br>
