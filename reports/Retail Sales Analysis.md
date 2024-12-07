@@ -19,22 +19,26 @@ In a competitive retail market, understanding customer behavior is vital for eff
 ### Phase 2: Exploratory Data Analysis (EDA)
 **1. Spending Patterns**
 - Customers spend the most on Beauty and Electronics products.
-- Clothing sees the lowest spending.
-
+- Clothing sees the lowest spending.<br><br>
+  ![Figure: Customer Spending by Product Categories](https://github.com/tazeenq/team27_project/blob/main/src/plots/spending_by_product_category.png)<br><br>
 **2. Class Imbalance**
 - 80% of customers were low spenders, and only 20% were high spenders.
-- This imbalance necessitated adjustments for modeling.
-
+- This imbalance necessitated adjustments for modeling.<br><br>
+![Figure: Class Imbalance Plot](https://github.com/tazeenq/team27_project/blob/main/src/plots/class_distribution.png)<br><br>
 **3. Relationship Analysis**
 - Gender and Spending: Minimal variation in spending between males and females.
 - Age and Spending: Spending decreases consistently with age. Younger customers spend more, especially on Beauty and Electronics.
-- Product Categories: Electronics and Beauty are the highest revenue generators across all age groups.
+- Product Categories: Electronics and Beauty are the highest revenue generators across all age groups.<br><br>
+![Figure: Average Spending by Gender](https://github.com/tazeenq/team27_project/blob/main/src/plots/average_spending_by_gender.png)<br><br>
+![Figure: Average Spending by Age Group and Product Category](https://github.com/tazeenq/team27_project/blob/main/src/plots/average_spending_by_age_group_and_product_category.png)<br><br>
+
 
 **4. Statistical Insights**
 - A Chi-Square test showed no significant association between gender and product categories.
 - Correlation analysis revealed:
     - A strong positive correlation between price per unit and total amount.
-    - A moderate correlation between quantity and total amount.
+    - A moderate correlation between quantity and total amount.<br><br>
+![Figure: Correlation Matrix](https://github.com/tazeenq/team27_project/blob/main/src/plots/correlation_matrix.png)<br><br>
 
 **5. Visual Highlights**
 - Class Distribution: Bar chart illustrating the imbalance between high and low spenders.
@@ -53,7 +57,9 @@ In a competitive retail market, understanding customer behavior is vital for eff
         - True Positives: 52
         - False Positives: 9
         - True Negatives: 138
-        - False Negatives: 1
+        - False Negatives: 1<br><br>
+![Figure: Confusion Matrix](https://github.com/tazeenq/team27_project/blob/main/src/plots/confusion_matrix.png)<br><br>
+![Figure: Performance Metrics](https://github.com/tazeenq/team27_project/blob/main/src/plots/performance_metrics.png)<br><br>
 
 **2. Model Interpretation**
 - The model effectively identifies high spenders.
