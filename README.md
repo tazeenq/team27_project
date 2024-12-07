@@ -77,19 +77,19 @@ I've used the following libraries/frameworks for this project:<br>
 
 **7. How can we iterate on our design to address feedback and make iterative improvements?**<br><br>
 I can iterate on my design in the following way (I did not have time to do this for now):
-- Handling the class imbalance by using tools like SMOTE or creating a balanced subset of the data.
+- Handling the class imbalance by using tools like SMOTE or creating a balanced subset of the data (I tried to do this, but it was taking too long with trial/error).
 - Enhancing features by incorporating engineered features like combining age and product category.
-- Validating metrics by improving precision for high spenders by fine tuning hyperparameters.
+- Validating metrics by improving precision for high spenders by fine tuning hyperparameters (trying different values for n_neighbors, for example).
 
 **8. What best practices can we follow to promote inclusivity and diversity in our visualization design?**<br><br>
 Some of the inclusivity and diversity practices that I have tried to apply to this project are:
 - Using color palettes that are accessible to those with color vision deficiencies.
-- Avoiding overloading the report with graphs and text, clearly labeling sections and detailing what is in each section.
+- Avoiding overcrowding the report with graphs and text, clearly labeling sections and detailing what is in each section.
 - Providing contextual information in plots, including labels, legends, and more.
 - Using different types of visualizations to cater to differences in expertise of the readers.
 
 **9. How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?**<br><br>
-I've ensure that the visualizations are accurately representative of the data by:
+I've ensured that the visualizations are accurately representative of the data by:
 - Validating data processing steps (sometimes manually), making sure that the results are not skewed.
 - Providing normalized scales for numeric features.
 - Clearly labeling axes and including summaries of preprocessing steps in comments.
@@ -98,14 +98,14 @@ I've ensure that the visualizations are accurately representative of the data by
 No, this dataset does not include any sensitive information, it was anonymized. However, I did drop the unique identifiers like transaction ID and customer ID in pre-processing. I have also tried to consider privacy concerns and used aggregated statistics instead of individual level data in the plots.
 
 **11. Are there any missing values or outliers that need to be addressed through preprocessing?**<br><br>
-I've handles missing values and outliers in pre-processing using the following:
-- Dropping rows with missing date or null values
+I've handled missing values and outliers in pre-processing using the following:
+- Dropping rows with missing date or null values.
 - Dropping rows with data from 2024 (the entire dataset has data from 2023, with only 2 rows with data from 2024).
 - Normalizing the dataset.
 
 **12. What techniques can we use to validate and tune the hyperparameters for our models?**<br><br>
 Although I haven't explored validation and tuning hyperparameters in this project in great detail, some effective techniques are to:
-- Use Grid Search or Randon Search to find optimal hyperparameters.
+- Use Grid Search or Random Search to find optimal hyperparameters.
 - Cross-validating using k-fold, for example, to ensure stable performance across training and validation sets.<br><br>
 In the project I've used the Train-Test Split to evaluate the model on unseen data (which is kind of a basic validation technique). I have also used the default number of n_neighbors in the model. 
 
@@ -125,8 +125,8 @@ The folder structure for the project is as follows:<br>
 |-- License
 ```
 * **Data:** Contains the raw and processed dataset files in CSV.
-* **Reports:** Include analysis report as markdown file with visualizations.
-* **src:** Project source code and png images of visualizations.
+* **Reports:** Includes analysis report as markdown file with visualizations.
+* **src:** Includes project source code and png images of visualizations.
 * **README**: This file.
 * **LICENSE**: Apache 2.0.
 
