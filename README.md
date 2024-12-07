@@ -119,15 +119,13 @@ The folder structure for the project is as follows:<br>
 |-- data
 |---- processed
 |---- raw
-|-- experiments
 |-- reports
 |-- src
 |-- README.md
 |-- License
 ```
 * **Data:** Contains the raw and processed dataset files in CSV.
-* **Experiments:** A folder for experiments - with the various statistical methods that I ran on the dataset.
-* **Reports:** Includes a markdown file with visualizations.
+* **Reports:** Include PDF and HTML files with visualizations.
 * **src:** Project source code.
 * **README**: This file.
 * **LICENSE**: Apache 2.0.
