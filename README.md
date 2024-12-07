@@ -13,7 +13,10 @@ This project analyzes the [Retail Sales Dataset](https://www.kaggle.com/datasets
 ## Business Case
 The retail industry in Canada is very competitive. In a competitive industry, it is essential to understand customer spending behaviors to execute optimized marketing strategies and guide strategic decision-making. Classifying customers as high spenders based on their demographics and purchase attributes can help businesses target the right audience and allocate their resources efficiently. 
 
-## Questions and Answers
+## Answer to the Research Question
+
+
+## Answers to Potential Questions After Reviewing the Dataset
 **1. What are they key variables and attributes in the dataset?**<br>
 
 The key variables and attributes in the dataset are:<br>
@@ -89,14 +92,14 @@ I've handles missing values and outliers in pre-processing using the following:
 - Dropping rows with data from 2024 (the entire dataset has data from 2023, with only 2 rows with data from 2024).
 - Normalizing the dataset.
 
-**12. What techniques can we use to validate and tune the hyperparameters for our models?**<br>
-```
+**12. What techniques can we use to validate and tune the hyperparameters for our models?**<br><br>
+Although I haven't explored validation and tuning hyperparameters in this project in great detail, some effective techniques are to:
+- Use Grid Search or Randon Search to find optimal hyperparameters.
+- Cross-validating using k-fold, for example, to ensure stable performance across training and validation sets.<br><br>
+In the project I've used the Train-Test Split to evaluate the model on unseen data (which is kind of a basic validation technique). I have also used the default number of n_neighbors in the model. 
 
-```
-**13. How should we split the dataset into training, validation, and test sets?**<br>
-```
-
-```
+**13. How should we split the dataset into training, validation, and test sets?**<br><br>
+The dataset was split into training and testing sets with an 80/20 split using train_test_split. If I had more time I would create a validation set by further splitting the trainign data (e.g., 70/15/15 for training/validation/testing).
 
 
 ## Project Folder Structure
